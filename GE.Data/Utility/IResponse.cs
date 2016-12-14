@@ -9,7 +9,7 @@ namespace GE.Data.Utility
     {
         T Data { get; }
 
-        bool Successful { get; }
+        ResponseStatus Status { get; }
 
         string Message { get; }
 
@@ -17,6 +17,6 @@ namespace GE.Data.Utility
 
     public enum ResponseStatus
     {
-        Success, 
+        Success, Error, NoAccess
     }
 }
