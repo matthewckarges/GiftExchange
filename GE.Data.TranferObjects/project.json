@@ -1,10 +1,7 @@
-{
+﻿{
   "version": "1.0.0-*",
 
   "dependencies": {
-    "GE.Data.Objects": "1.0.0-*",
-    "GE.Data.TranferObjects": "1.0.0-*",
-    "MongoDB.Driver": "2.4.0",
     "NETStandard.Library": "1.6.0"
   },
 
